@@ -61,3 +61,11 @@ section {
   grid-column-gap: 10px;
   padding: 10px;
 }
+
+
+@media screen and (max-width: 600px) {
+  section{
+    display: flex;
+    flex-direction: column;
+  }
+}
