@@ -1,0 +1,74 @@
+.left {
+  background-color: white;
+  border-radius: 1px solid rgb(223, 3, 3);
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+.left_display {
+  position: relative;
+}
+.left_display img {
+  width: 100%;
+  vertical-align: middle;
+  border-style: none;
+  background-color: #fff;
+  border-radius: 9px solid rgb(223, 3, 3);
+}
+.left_display h2 {
+  color: #000 !important;
+  padding: 0.01em 16px;
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  font-size: 30px;
+}
+.left p {
+  color: #757575 !important;
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+}
+.left i {
+  margin-right: 16px !important;
+  color: #009688 !important;
+  font-size: 18px !important;
+}
+
+hr {
+  border: 0;
+  border-top: 1px solid #eee;
+  margin: 20px 0;
+}
+
+.left_container {
+  padding: 0.01em 16px;
+}
+
+.skill_bar {
+  height: 20px;
+  background: #cacaca;
+  border-radius: 8px;
+  text-align: center;
+}
+
+.skill_per {
+  height: 20px;
+  background-color: #009688;
+  border-radius: 8px;
+  position: relative;
+}
+
+.lang_bar {
+  height: 24px;
+  background: #cacaca;
+  border-radius: 8px;
+  text-align: center;
+}
+
+.lang_per {
+  height: 24px;
+  background-color: #009688;
+  border-radius: 8px;
+  position: relative;
+}
+/* 
+@media screen and (max-width: 600px) {
+} */
